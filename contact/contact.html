@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+    <nav>
+        <a href="Home.html">home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="../about/about.html">About</a>
+        <a href="../contact/contact.html"  class="active">Contact</a>
+    </nav>
+    <section id="hero">
+        <h1>Contact Us</h1>
+        <p>Hubungi kami melalui form di bawah ini</p>
+        <a href="home.html" class="btn btn-large">Learn More</a>
+    </section>
+    <section id="wrapper">
+        <section id="main">           
+            <div class="container-contact">
+                <!-- <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Swing by for a cup of coffee, or leave us a message:</p>
+                </div> -->
+                <div class="row-contact">
+                  <!-- <div class="column-contact">
+                    <img src="/w3images/map.jpg" style="width:100%">
+                  </div> -->
+                  <div class="column-contact">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="lemail">Email</label>
+                      <input type="text" id="lemail" name="email" placeholder="Your Email..">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject-contact" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">
+                    Widget Header
+                </h3>
+                <ul>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                    <li><a href="#">Widget Link</a></li>
+                </ul>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Widget Text</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor consequatur nisi optio minus iusto laboriosam cupiditate veniam sit? Nihil nemo dignissimos nesciunt incidunt eius accusamus commodi quaerat corporis fuga.</p>
+                
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>  
+</body>
+</html>
