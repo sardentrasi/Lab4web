@@ -5,7 +5,7 @@ TI 19 B2
 1. Membuat dokumen HTML beserta konten yang akan dibuat   
    ![gambar1](assets/img/lay1.png)  
 
-2. Membuat css untuk layout tersbut
+2. Membuat css untuk layout tersebut
     ![gambar2](assets/img/lay2.png)
 
 3. Menambah elemen pada main content  
